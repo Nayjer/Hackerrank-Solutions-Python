@@ -1,4 +1,4 @@
-def encryption(s):
+def encryption(s): # explanation: https://medium.com/@Nayjer/encryption-python3-solution-hackerrank-medium-problem-c5a4b45e2e34
     chars_without_spaces = [i for i in s if i != " "]
     rows_number = int((len(chars_without_spaces)**0.5)//1)
     if rows_number**2 >= len(chars_without_spaces):
