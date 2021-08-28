@@ -1,5 +1,4 @@
 def encryption(s):
-    # Write your code here
     chars_without_spaces = [i for i in s if i != " "]
     rows_number = int((len(chars_without_spaces)**0.5)//1)
     if rows_number**2 >= len(chars_without_spaces):
